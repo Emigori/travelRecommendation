@@ -1,0 +1,66 @@
+{
+    "beaches": [
+      {
+        "name": "Sydney, Australia",
+        "imageUrl": "sydney.jpg",
+        "description": "Ciudad costera con la Opera House y playas increíbles.",
+        "timeZone": "Australia/Sydney"
+      },
+      {
+        "name": "Cancún, México",
+        "imageUrl": "cancun.jpg",
+        "description": "Arena blanca y mar turquesa en el Caribe mexicano.",
+        "timeZone": "America/Cancun"
+      }
+    ],
+    "temples": [
+      {
+        "name": "Fushimi Inari, Japón",
+        "imageUrl": "fushimi.jpg",
+        "description": "Miles de toriis rojos en Kioto.",
+        "timeZone": "Asia/Tokyo"
+      },
+      {
+        "name": "Angkor Wat, Camboya",
+        "imageUrl": "angkor.jpg",
+        "description": "Complejo de templos icónico rodeado de selva.",
+        "timeZone": "Asia/Phnom_Penh"
+      }
+    ],
+    "countries": [
+      {
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "tokyo.jpg",
+            "description": "Megaciudad moderna con cultura pop y gastronomía.",
+            "timeZone": "Asia/Tokyo"
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "kyoto.jpg",
+            "description": "Templos tradicionales, callejones y naturaleza.",
+            "timeZone": "Asia/Tokyo"
+          }
+        ]
+      },
+      {
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "rio.jpg",
+            "description": "Playas, samba y el Cristo Redentor.",
+            "timeZone": "America/Sao_Paulo"
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "saopaulo.jpg",
+            "description": "Capital financiera con gran escena cultural.",
+            "timeZone": "America/Sao_Paulo"
+          }
+        ]
+      }
+    ]
+  }

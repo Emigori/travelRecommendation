@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>TravelBloom · Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { --brand:#0a3232; }
+    body{margin:0;font-family:system-ui,Segoe UI,Arial}
+    header{position:sticky;top:0;background:var(--brand);color:#fff}
+    nav{max-width:1000px;margin:auto;display:flex;gap:16px;align-items:center;padding:10px 16px}
+    nav a{color:#fff;text-decoration:none;font-weight:600}
+    main{max-width:800px;margin:24px auto;padding:0 16px 40px}
+    form{display:grid;gap:8px}
+    input,textarea,button{padding:10px;border:1px solid #ccc;border-radius:8px;font:inherit}
+    button{cursor:pointer;background:var(--brand);color:#fff;border:0}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>✈️ TravelBloom</strong>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About Us</a>
+      <a href="./contact.html">Contact Us</a>
+      <!-- sin barra de búsqueda aquí -->
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <form onsubmit="event.preventDefault(); alert('¡Mensaje enviado! (demo)'); this.reset();">
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Correo" required />
+      <textarea rows="6" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>

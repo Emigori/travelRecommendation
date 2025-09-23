@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>TravelBloom · About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { --brand:#0a3232; }
+    body{margin:0;font-family:system-ui,Segoe UI,Arial}
+    header{position:sticky;top:0;background:var(--brand);color:#fff}
+    nav{max-width:1000px;margin:auto;display:flex;gap:16px;align-items:center;padding:10px 16px}
+    nav a{color:#fff;text-decoration:none;font-weight:600}
+    main{max-width:1000px;margin:24px auto;padding:0 16px 40px}
+    .team{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+    .card{border:1px solid #e5e5e5;border-radius:10px;padding:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <strong>✈️ TravelBloom</strong>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About Us</a>
+      <a href="./contact.html">Contact Us</a>
+      <!-- sin barra de búsqueda aquí -->
+    </nav>
+  </header>
+
+  <main>
+    <h1>About Us</h1>
+    <p>Somos un equipo pequeño que arma recomendaciones rápidas y claras. Sin anuncios, sin rollo.</p>
+
+    <h2>Our Team</h2>
+    <section class="team">
+      <div class="card"><h3>John Doe</h3><p>CEO</p></div>
+      <div class="card"><h3>Celina Thomas</h3><p>Team Lead</p></div>
+      <div class="card"><h3>Mike Tysen</h3><p>Delivery Head</p></div>
+    </section>
+  </main>
+</body>
+</html>
